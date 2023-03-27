@@ -1,10 +1,21 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 200px);
+  margin-bottom: 3.2rem;
 }
 
 .test {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  background-color: #000;
+}
+.test-two {
+  width: 150px;
+  height: 150px;
+  background-color: #000;
+}
+.test-one {
+  width: 150px;
+  height: 150px;
   background-color: #000;
 }
