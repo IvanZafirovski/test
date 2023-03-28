@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(234, 242, 242);
+}
+span {
+  padding-left: 1em;
+  margin: 2em;
+  background-color: rgb(245, 213, 213);
+  color: rgb(7, 7, 7);
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.add {
+  position: absolute;
+  margin-top: 5em;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
