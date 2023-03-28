@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Popins", sans-serif;
+}
+body {
+  background-image: url(building.jpg);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: solid;
+}
+#save-btn {
+  background-color: #04fd0c; /* Green */
+  border-radius: 50%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  width: 100px;
+}
+#increment-btn {
+  background-color: #04fd0c; /* Green */
+  border-radius: 50%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  width: 100px;
+}
+
+#save-btn:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+#increment-btn:hover {
+  background-color: #ade80b;
+  color: white;
+}
+h1 {
+  color: #04fd0c;
+}
