@@ -1,26 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(45deg, #fff, red);
+}
+input {
+  background: linear-gradient(45deg, red, #fff);
+  color: #ffff;
+}
 .main {
   position: relative;
+  padding: 50px;
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(6, 200px);
-  margin-bottom: 3.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .test {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
   background-color: #000;
+  border: 2px solid #fff;
 }
+
 .test-two {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
   background-color: #000;
 }
 .test-one {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
   background-color: #000;
 }
 .section-pictures {
