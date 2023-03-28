@@ -19,3 +19,24 @@
   height: 150px;
   background-color: #000;
 }
+.section {
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  padding: 10px;
+  gap: 12px;
+  scroll-padding: 10px;
+}
+.item {
+  background-image: url("../images/img-6.jpg");
+
+  background-position: center;
+  height: 140px;
+}
+.section .item {
+  flex: 0 0 100%;
+  /* align  the item*/
+  scroll-snap-align: start;
+  /* stop the item*/
+  scroll-snap-stop: always;
+}
