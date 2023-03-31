@@ -5,6 +5,7 @@
 }
 body {
   background: linear-gradient(45deg, #fff, red);
+  position: relative;
 }
 input {
   background: linear-gradient(45deg, red, #fff);
@@ -20,10 +21,14 @@ input {
   justify-content: center;
   background: linear-gradient(90deg, red, black);
   color: #ffff;
-
-  padding: 2rem;
   width: 18rem;
   position: absolute;
+  top: 1%;
+  left: 1%;
+  border-radius: 11px;
+}
+.clock {
+  padding: 2rem;
 }
 h1 {
   color: #fff;
@@ -71,22 +76,20 @@ h1 {
     transform: scale(1);
   }
 }
-/********* Section LOADER************/
-/* .section-radio {
-  background-color: #fff;
-  width: 9.6rem;
-  height: 9.6rem;
-  padding: 2.4rem;
-} */
-
+/********* Section Radio *****/
+.section-radio {
+  position: absolute;
+  top: 20%;
+  right: 2%;
+}
 /********* Section CARDS************/
 .section-cards {
   display: grid;
   grid-template-columns: repeat(3, 250px);
-  gap: 55px;
-  padding: 25px 15px 25px 100px;
-  width: 75rem;
+  gap: 6rem;
+  width: 62rem;
   margin: 0 auto;
+  padding-top: 12rem;
 }
 .card {
   display: grid;
