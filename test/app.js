@@ -17,6 +17,32 @@ const currentTime = () => {
 currentTime();
 setInterval(currentTime, 1000);
 
+// RAnge
+const range = document.createElement("input");
+range.type = "range";
+range.max = 10;
+range.value = 0;
+const paragraph = document.createElement("p");
+paragraph.innerHTML = "How awesome are you?";
+const sectionAwesome = document.createElement("div");
+const stars = document.createElement("div");
+
+range.classList.add("range");
+paragraph.classList.add("awesome-paragraph");
+sectionAwesome.classList.add("section-awesome");
+stars.classList.add("stars");
+
+document.body.appendChild(sectionAwesome);
+sectionAwesome.append(paragraph, range, stars);
+
+range.oninput = addStars;
+function addStars() {
+  stars.innerText = "";
+  for (let i = 0; i < this.value; i++) {
+    stars.append("⭐");
+  }
+}
+
 /// Dark Light
 
 const btns = document.getElementsByName("r");

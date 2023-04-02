@@ -11,7 +11,12 @@ input {
   background: linear-gradient(45deg, red, #fff);
   color: #ffff;
 }
-
+/********* Section Radio *****/
+.section-radio {
+  position: absolute;
+  top: 20%;
+  right: 2%;
+}
 /********* Section CLOCK************/
 
 .section-clock {
@@ -34,6 +39,26 @@ h1 {
   color: #fff;
   font-size: 2.2rem;
   font-weight: 400;
+}
+
+/********* Section AWESOME************/
+.section-awesome {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 36rem;
+  margin: 0 auto;
+  padding-top: 2.4rem;
+}
+.awesome-paragraph {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
 }
 
 /********* Section LOADER************/
@@ -76,12 +101,7 @@ h1 {
     transform: scale(1);
   }
 }
-/********* Section Radio *****/
-.section-radio {
-  position: absolute;
-  top: 20%;
-  right: 2%;
-}
+
 /********* Section CARDS************/
 .section-cards {
   display: grid;
