@@ -24,7 +24,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, red, black);
+  background: #000;
   color: #ffff;
   width: 18rem;
   position: absolute;
@@ -44,7 +44,7 @@ h1 {
 /********* Section AWESOME************/
 .section-awesome {
   position: absolute;
-  top: 0;
+  top: 5%;
   left: 50%;
   transform: translate(-50%);
   display: flex;

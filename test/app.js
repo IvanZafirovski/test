@@ -18,7 +18,7 @@ currentTime();
 setInterval(currentTime, 1000);
 
 // RAnge
-const sectionMater = document.querySelector(".section-master");
+const sectionSecondMaster = document.querySelector(".section-second--master");
 const range = document.createElement("input");
 range.type = "range";
 range.max = 10;
@@ -33,7 +33,7 @@ paragraph.classList.add("awesome-paragraph");
 sectionAwesome.classList.add("section-awesome");
 stars.classList.add("stars");
 
-sectionMater.appendChild(sectionAwesome);
+sectionSecondMaster.appendChild(sectionAwesome);
 sectionAwesome.append(paragraph, range, stars);
 
 range.oninput = addStars;
